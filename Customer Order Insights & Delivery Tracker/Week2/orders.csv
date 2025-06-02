@@ -1,0 +1,7 @@
+order_id,customer_id,customer_name,order_date,delivery_date,status,issue
+1,101,Amit Sharma,2024-05-01,2024-05-05,Delivered,
+2,102,Priya Singh,2024-05-03,,Delayed,Late delivery
+3,101,Amit Sharma,2024-05-10,2024-05-09,Delivered,
+4,103,Ravi Kumar,2024-05-12,2024-05-20,Pending,Address not found
+5,104,Anita Desai,2024-05-15,2024-05-16,Delivered,
+6,102,Priya Singh,2024-05-18,,Delayed,Late delivery

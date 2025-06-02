@@ -1,0 +1,18 @@
+use CustomerOrderMongoDB;
+
+db.customer_feedback.insertMany([
+  {
+    customer_id: 101,
+    feedback: "Delivery was delayed by 2 days. Packaging was damaged.",
+    timestamp: ISODate("2024-05-06T14:00:00Z"),
+    customer_name: "Amit Sharma"
+  },
+  {
+    customer_id: 102,
+    feedback: "Quick delivery. Very satisfied with the service!",
+    timestamp: ISODate("2024-05-07T09:00:00Z"),
+    customer_name: "Priya Singh"
+  }
+]);
+
+db.customer_feedback.createIndex({ customer_id: 1 });
